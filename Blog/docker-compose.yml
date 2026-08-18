@@ -1,0 +1,9 @@
+services:
+
+  frontend:
+    build: .
+    image: umangkhandelwal/blog-frontend:v1
+    container_name: blog-frontend
+    ports:
+      - "80:80"
+
